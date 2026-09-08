@@ -1,33 +1,65 @@
-# MAVILIGIO Boutique - Official Website 👗
+# Maviligio | Official Boutique Website
 
-Welcome to the official repository for the **MAVILIGIO** website, an exclusive fashion boutique located in Campofelice di Roccella, Sicily. This project is a sleek, high-performance digital showcase designed to reflect the elegance and luxury of the brands hosted in-store.
+A modern, elegant, and fully responsive website built for **Maviligio**, an exclusive clothing and underwear boutique located in Campofelice di Roccella (Palermo, Sicily). 
 
-## 🚀 Key Features
+[![Live Website](https://img.shields.io/badge/status-online-success.svg)](https://www.maviligio.it)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-- **Responsive Design**: Seamless user experience across desktop, tablet, and mobile devices.
-- **Mobile-First Optimization**: 
-    - **Story Section**: Features full-width imagery for a modern mobile look.
-    - **Product Grid**: Horizontal touch-slider for intuitive navigation on smartphones.
-- **Interactive UI**: Custom JavaScript-powered front/back image toggles for every product.
-- **High Performance**: Optimized using `.webp` image formats for lightning-fast loading speeds.
-- **SEO & Social Ready**: Enhanced with Meta Tags for professional sharing on social platforms (Open Graph & Twitter Cards).
+---
+
+## 🌟 About the Project
+
+Maviligio is a web project designed to bring a local boutique's luxury style and refined fashion collections into the digital world. The website emphasizes timeless elegance, high-end materials, and attention to detail, combining a sophisticated visual identity with smooth interactivity.
+
+---
+
+## ✨ Key Features
+
+- **Responsive Design:** Fully optimized for mobile devices, tablets, and desktop screens with custom media queries and a mobile hamburger menu.
+- **Hero Video Background:** An engaging full-screen video header featuring a custom overlay and animated call-to-action button.
+- **Interactive Product Sliders:** Custom JavaScript-driven sliders allowing users to view alternative angles (front/back) of featured clothing items.
+- **Infinite Brand Carousel:** A smooth, CSS-animated marquee showcasing partnered luxury brands (Ragno, Coconuda, Karakorum, etc.).
+- **Dynamic UI Elements:** 
+  - Dynamic scroll effects on the navigation header.
+  - Intersection Observer API for smooth fade-in animations on the history section.
+  - Interactive modal windows for Privacy and Cookie policies.
+  - Custom cookie consent banner with local storage persistence.
+- **Call-to-Action Integration:** Interactive promotional buttons linked directly to the boutique's official Instagram profile for customer engagement.
+
+---
 
 ## 🛠️ Built With
 
-- **HTML5**: Advanced semantic structure.
-- **CSS3**: Modern styling using Flexbox, CSS Grid, and Custom Properties (Variables).
-- **Vanilla JavaScript**: Handles the mobile hamburger menu, product sliders, and privacy modals.
-- **Google Fonts**: Integrated *Jost* (modern) and *EB Garamond* (luxury) typefaces.
-- **Font Awesome**: Professional iconography for social links and navigation.
+- **HTML5** (Semantic markup, Open Graph meta tags for social sharing)
+- **CSS3** (Flexbox, CSS Grid, Custom Properties/Variables, Keyframe Animations, Backdrop Filters)
+- **JavaScript (ES6+)** (DOM Manipulation, Intersection Observer, Event Listeners, Custom State Management)
+- **Font Awesome** (Icons)
+- **Google Fonts** (EB Garamond & Jost)
 
-## 📁 Project Structure
+---
+
+## 🚀 Live Website
+
+The project is fully deployed and live in production:
+👉 [www.maviligio.it](https://www.maviligio.it)
+
+---
+
+## 📂 Project Structure
 
 ```text
-/
-├── assets/             # Images, Logos, Video, and Brand assets
+maviligio/
+│
+├── index.html          # Main HTML structure
 ├── css/
-│   └── style.css       # Stylesheets with dedicated Media Queries
+│   └── style.css       # Global styles, layout, and responsiveness
 ├── js/
-│   └── script.js       # Logic for sliders and UI interactions
-├── index.html          # Main entry point
-└── README.md           # Project documentation
+│   └── script.js       # Interactive features, modals, and sliders
+└── assets/             # Images, logos, product photos, and video files
+    ├── logo.webp
+    ├── video.mp4
+    ├── brand/          # Partner brand logos
+    ├── storia/         # History section imagery
+    └── product/        # Promotional product images (front/back)
